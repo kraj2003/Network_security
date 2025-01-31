@@ -3,5 +3,7 @@ numpy
 mlflow
 # scikit-learn
 matplotlib
-python.env
+python-dotenv
 pymongo #
+certifi
+# -e .
