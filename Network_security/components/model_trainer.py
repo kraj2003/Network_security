@@ -27,6 +27,9 @@ import mlflow
 from urllib.parse import urlparse
 
 import dagshub
+dagshub.init(repo_owner='kraj2003', repo_name='Network_security', mlflow=True)
+
+import dagshub
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
         try: 
