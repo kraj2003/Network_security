@@ -9,7 +9,7 @@ mlflow
 pyaml
 dagshub
 fastapi
-configbox
+# configbox
 uvicorn
 python-multipart
 ipykernel
